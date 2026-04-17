@@ -11,4 +11,5 @@ Foi iniciado um servidor local na porta 8443.
 Ao acessar utilizando HTTPS, o navegador apresentou erro de segurança, pois o servidor não possui um certificado digital válido configurado.
 
 Isso demonstra a importância do uso de certificados digitais em conexões seguras.
-![Print](print7.png)
+![Print](print.ex.png)
+
