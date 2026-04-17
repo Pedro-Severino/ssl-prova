@@ -10,3 +10,6 @@ pwd
 
 Foi criado um diretório para armazenar certificados SSL no sistema.  
 O diretório /etc/ssl é utilizado para arquivos relacionados à segurança.
+## Evidência:
+
+![Print](print2.png)
