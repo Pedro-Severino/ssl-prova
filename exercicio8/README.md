@@ -1,14 +1,2 @@
-# Exercício 8 – Verificação do Certificado
-
-## Comando utilizado:
-
-openssl x509 -in ~/ssl-prova/exercicio5/aluno.crt -noout -subject -issuer
-
-## Explicação:
-
-O comando foi utilizado para visualizar o dono e o emissor do certificado digital.  
-Essas informações ajudam a verificar a autenticidade do certificado.
-
-## Evidência:
-
+Ao acessar o servidor HTTPS com um certificado autoassinado, o navegador exibe um aviso de segurança informando que a conexão não é confiável. Isso ocorre porque o certificado não foi emitido por uma Autoridade Certificadora (CA) reconhecida. Mesmo com o aviso, a comunicação continua criptografada utilizando TLS, garantindo segurança na transmissão de dados.
 ![Print](print8.png)
