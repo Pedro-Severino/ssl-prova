@@ -1,14 +1,14 @@
-# Exercício 7 – Verificação da Chave Privada
+# Exercício 7 – Servidor HTTPS
 
 ## Comando utilizado:
 
-openssl rsa -in ~/ssl-prova/exercicio3/aluno.key -check
+python3 -m http.server 8443 --bind 0.0.0.0
 
 ## Explicação:
 
-O comando foi utilizado para verificar se a chave privada está válida.  
-A mensagem "RSA key ok" indica que a chave está correta e pode ser utilizada.
+Foi iniciado um servidor local na porta 8443.
 
-## Evidência:
+Ao acessar utilizando HTTPS, o navegador apresentou erro de segurança, pois o servidor não possui um certificado digital válido configurado.
 
-![Print](print7.png)
+Isso demonstra a importância do uso de certificados digitais em conexões seguras.
+![Print](print9.png)
