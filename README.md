@@ -1,18 +1,17 @@
-# ssl-prova
-Atividade de SSL e certificados digitais
-# SSL Prova
+# Exercício 7 – Servidor HTTPS
 
-## Nome
-Pedro Henrique Severino
+## Comando utilizado:
 
-## Ambiente
-WSL (Windows Subsystem for Linux) com Ubuntu
+python3 -m http.server 8443 --bind 0.0.0.0
 
-## IP
-127.0.0.1
+## Explicação:
 
-## Dificuldades
-Tive dificuldades com autenticação no GitHub, uso de token e alguns comandos do OpenSSL.
+Foi iniciado um servidor local na porta 8443.
 
-## Conclusão
-A atividade foi importante para aprender sobre certificados digitais, uso do OpenSSL e organização de projetos no GitHub.
+Ao acessar utilizando HTTPS, o navegador apresentou erro de segurança, pois o servidor não possui um certificado digital válido configurado.
+
+Isso demonstra a importância do uso de certificados digitais em conexões seguras.
+
+## Evidência:
+
+![Print](print7.1.png)
