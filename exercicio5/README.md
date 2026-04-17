@@ -8,3 +8,6 @@ openssl x509 -req -days 365 -in ~/ssl-prova/exercicio4/aluno.csr -signkey ~/ssl-
 
 Foi criado um certificado digital a partir do CSR e da chave privada.  
 Esse certificado garante segurança e autenticação.
+## Evidência:
+
+![Print](print5.png)
