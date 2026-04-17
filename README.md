@@ -1,17 +1,18 @@
-# Exercício 7 – Servidor HTTPS
+# Projeto SSL - Prova
 
-## Comando utilizado:
+## Nome:
+Pedro Henrique Severino
 
-python3 -m http.server 8443 --bind 0.0.0.0
+## Ambiente:
+WSL (Windows Subsystem for Linux)
 
-## Explicação:
+## IP:
+localhost
 
-Foi iniciado um servidor local na porta 8443.
+## Dificuldades:
+Tive dificuldades com o uso do SCP no WSL, pois o serviço SSH não estava ativo.
+Também tive dúvidas na execução dos comandos e na validação no navegador.
 
-Ao acessar utilizando HTTPS, o navegador apresentou erro de segurança, pois o servidor não possui um certificado digital válido configurado.
-
-Isso demonstra a importância do uso de certificados digitais em conexões seguras.
-
-## Evidência:
-
-![Print](print7.1.png)
+## Conclusão:
+A atividade ajudou a entender o funcionamento de certificados digitais, chaves privadas e o uso do OpenSSL.
+Também foi possível compreender a diferença entre HTTP e HTTPS e a importância da segurança nas conexões.
